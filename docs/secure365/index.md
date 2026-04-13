@@ -10,9 +10,9 @@ Softwerx **secure365** is a fully managed detection and response service built o
  
 Use the sidebar to navigate through the following sections:
  
-- [Scope](./scope)
-- [Mission Statement](./mission)
-- [Contacts](./contacts)
-- [Roles & Responsibilities](./roles)
-- [RACI Matrix](./raci)
-- [Procedures](./procedures)
+- [Scope](/docs/secure365/scope)
+- [Mission Statement](/docs/secure365/mission)
+- [Contacts](/docs/secure365/contacts)
+- [Roles & Responsibilities](/docs/secure365/roles)
+- [RACI Matrix](/docs/secure365/raci)
+- [Procedures](/docs/secure365/procedures)
