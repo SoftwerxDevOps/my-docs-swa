@@ -1,7 +1,7 @@
 ---
 title: secure365 MDR
 sidebar_label: secure365 MDR
-slug: /secure365-mdr
+slug: /secure365
 ---
  
 # secure365 MDR
