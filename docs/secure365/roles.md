@@ -1,4 +1,4 @@
-  ---
+---
 title: Roles & Responsibilities
 sidebar_label: Roles & Responsibilities
 ---
