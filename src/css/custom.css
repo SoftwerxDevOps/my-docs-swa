@@ -1,30 +1,66 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
+/* Softwerx Brand Colours */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Primary: Softwerx Orange */
+  --ifm-color-primary: #FF5500;
+  --ifm-color-primary-dark: #E64D00;
+  --ifm-color-primary-darker: #D94900;
+  --ifm-color-primary-darkest: #B33C00;
+  --ifm-color-primary-light: #FF6A1A;
+  --ifm-color-primary-lighter: #FF7733;
+  --ifm-color-primary-lightest: #FF8500;
+ 
+  /* Fonts */
+  --ifm-font-family-base: 'Figtree', sans-serif;
+  --ifm-heading-font-family: 'Sora', sans-serif;
+ 
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(255, 85, 0, 0.1);
 }
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+ 
+/* Dark mode overrides */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #FF6A1A;
+  --ifm-color-primary-dark: #FF5500;
+  --ifm-color-primary-darker: #E64D00;
+  --ifm-color-primary-darkest: #B33C00;
+  --ifm-color-primary-light: #FF8500;
+  --ifm-color-primary-lighter: #FF9933;
+  --ifm-color-primary-lightest: #FFAD66;
+ 
+  --ifm-background-color: #00123A; /* Midnight Blue */
+  --ifm-navbar-background-color: #00123A;
+  --ifm-footer-background-color: #000D28;
+ 
+  --docusaurus-highlighted-code-line-bg: rgba(255, 106, 26, 0.15);
+}
+ 
+/* Navbar dark style */
+.navbar {
+  background-color: #00123A;
+}
+ 
+.navbar__title {
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  color: #FF5500;
+}
+ 
+/* Headings use Sora */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+}
+ 
+/* Links use Pale Blue as per brand secondary colours */
+a {
+  color: #00CBFF;
+}
+ 
+a:hover {
+  color: #FF5500;
+}
+ 
+/* Footer */
+.footer {
+  background-color: #000D28;
 }
