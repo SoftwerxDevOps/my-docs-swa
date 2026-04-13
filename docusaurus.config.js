@@ -20,12 +20,6 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
  
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
- 
-  // Load Sora + Figtree from Google Fonts
   headTags: [
     {
       tagName: 'link',
@@ -43,6 +37,11 @@ const config = {
     },
   ],
  
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+ 
   presets: [
     [
       'classic',
@@ -52,7 +51,7 @@ const config = {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/SoftwerxDevOps/my-docs/tree/main/',
         },
-        blog: false, // Disabled - docs only
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -65,6 +64,7 @@ const config = {
     ({
       image: 'img/softwerx-social-card.jpg',
       colorMode: {
+        defaultMode: 'light',
         respectPrefersColorScheme: true,
       },
       navbar: {
@@ -72,7 +72,7 @@ const config = {
         logo: {
           alt: 'Softwerx Logo',
           src: 'img/logo.svg',
-          srcDark: 'img/logo-dark.svg', // optional dark mode logo
+          srcDark: 'img/logo-dark.svg',
         },
         items: [
           {
@@ -82,7 +82,7 @@ const config = {
             label: 'Documentation',
           },
         ],
-        style: 'dark', // uses your dark navy navbar
+        style: 'primary',
       },
       footer: {
         style: 'dark',
@@ -101,7 +101,7 @@ const config = {
             items: [
               {
                 label: 'Softwerx Website',
-                href: 'https://www.softwerx.co.uk',
+                href: 'https://www.softwerx.com',
               },
             ],
           },
