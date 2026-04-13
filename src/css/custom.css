@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Sora:wght@700;800&display=swap%27);
+ 
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Sora:wght@700;800&display=swap%22);
  
 :root {
-
-  /* Primary: Softwerx Orange */
 
   --ifm-color-primary: #FF5500;
 
@@ -18,28 +17,20 @@
 
   --ifm-color-primary-lightest: #FF8500;
  
-  /* Fonts */
+  --ifm-font-family-base: "Figtree", sans-serif;
 
-  --ifm-font-family-base: 'Figtree', sans-serif;
-
-  --ifm-heading-font-family: 'Sora', sans-serif;
+  --ifm-heading-font-family: "Sora", sans-serif;
 
   --ifm-font-size-base: 16px;
  
-  /* Light background */
-
   --ifm-background-color: #FFFFFF;
 
   --ifm-background-surface-color: #F7F7F7;
  
-  /* Text colours */
-
   --ifm-font-color-base: #00123A;
 
   --ifm-heading-color: #00123A;
  
-  /* Navbar */
-
   --ifm-navbar-background-color: #FFFFFF;
 
   --ifm-navbar-shadow: 0 1px 4px rgba(0, 18, 58, 0.12);
@@ -48,27 +39,19 @@
 
   --ifm-navbar-link-hover-color: #FF5500;
  
-  /* Sidebar */
-
   --ifm-sidebar-background-color: #F7F7F7;
  
-  /* Links */
-
   --ifm-link-color: #FF5500;
 
   --ifm-link-hover-color: #E64D00;
  
-  /* Code */
-
   --ifm-code-font-size: 95%;
 
   --docusaurus-highlighted-code-line-bg: rgba(255, 85, 0, 0.08);
 
 }
  
-/* Dark mode */
-
-[data-theme='dark'] {
+[data-theme="dark"] {
 
   --ifm-color-primary: #FF6A1A;
 
@@ -114,7 +97,7 @@
  
 .navbar__title {
 
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
 
   font-weight: 700;
 
@@ -128,7 +111,7 @@
  
 .navbar__link {
 
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
 
   font-weight: 600;
 
@@ -150,7 +133,7 @@
 
 h1 {
 
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
 
   font-weight: 800;
 
@@ -164,7 +147,7 @@ h1 {
  
 h2 {
 
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
 
   font-weight: 700;
 
@@ -176,7 +159,7 @@ h2 {
  
 h3, h4, h5, h6 {
 
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
 
   font-weight: 700;
 
@@ -188,7 +171,7 @@ h3, h4, h5, h6 {
 
 .menu__link {
 
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
 
   font-weight: 400;
 
@@ -224,7 +207,7 @@ h3, h4, h5, h6 {
 
   border-color: #FF5500;
 
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
 
   font-weight: 700;
 
@@ -254,7 +237,7 @@ h3, h4, h5, h6 {
  
 .footer__title {
 
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
 
   font-weight: 700;
 
@@ -266,7 +249,7 @@ h3, h4, h5, h6 {
 
   color: rgba(255,255,255,0.75);
 
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
 
 }
  
@@ -280,7 +263,7 @@ h3, h4, h5, h6 {
 
   color: rgba(255,255,255,0.5);
 
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
 
   font-size: 0.85rem;
 
@@ -292,7 +275,7 @@ h3, h4, h5, h6 {
 
 .markdown li {
 
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
 
   color: #00123A;
 
@@ -330,7 +313,7 @@ article a:hover {
 
   color: #FF5500;
 
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
 
   font-weight: 700;
 
