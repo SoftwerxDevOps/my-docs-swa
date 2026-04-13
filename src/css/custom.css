@@ -40,6 +40,17 @@
   --ifm-link-color: #FF6A1A;
 }
  
+[data-theme=dark] h2 {
+  color: #FF8500;
+}
+ 
+[data-theme=dark] h3,
+[data-theme=dark] h4,
+[data-theme=dark] h5,
+[data-theme=dark] h6 {
+  color: #FFFFFF;
+}
+ 
 .navbar {
   background-color: #FFFFFF;
   border-bottom: 3px solid #FF5500;
@@ -147,6 +158,11 @@ h3, h4, h5, h6 {
 .markdown li {
   color: #00123A;
   line-height: 1.75;
+}
+ 
+[data-theme=dark] .markdown p,
+[data-theme=dark] .markdown li {
+  color: #FFFFFF;
 }
  
 article a {
