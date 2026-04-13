@@ -1,4 +1,3 @@
-// @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
  
 /** @type {import('@docusaurus/types').Config} */
@@ -19,28 +18,6 @@ const config = {
  
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
- 
-  headTags: [
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://fonts.googleapis.com',
-      },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Sora:wght@700;800&display=swap',
-      },
-    },
-  ],
- 
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
  
   presets: [
     [
