@@ -41,9 +41,10 @@ const config = {
     ({
       image: 'img/softwerx-social-card.jpg',
       colorMode: {
-        defaultMode: 'light',
-        respectPrefersColorScheme: true,
-      },
+  defaultMode: 'light',
+  disableSwitch: false,
+  respectPrefersColorScheme: false,
+},
       navbar: {
         title: 'Softwerx',
         logo: {
