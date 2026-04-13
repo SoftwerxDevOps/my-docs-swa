@@ -45,13 +45,21 @@ const config = {
   disableSwitch: false,
   respectPrefersColorScheme: false,
 },
-      navbar: {
-        title: 'Softwerx',
-        logo: {
-          alt: 'Softwerx Logo',
-          src: 'img/logo.svg',
-          srcDark: 'img/logo-dark.svg',
-        },
+navbar: {
+  title: 'Softwerx',
+  logo: {
+    alt: 'Softwerx Logo',
+    src: 'img/logo.png',
+  },
+  items: [
+    {
+      type: 'docSidebar',
+      sidebarId: 'tutorialSidebar',
+      position: 'left',
+      label: 'Documentation',
+    },
+  ],
+},
         items: [
           {
             type: 'docSidebar',
