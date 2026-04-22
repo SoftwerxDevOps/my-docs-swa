@@ -10,8 +10,8 @@ const config = {
     v4: true,
   },
  
-  url: 'https://SoftwerxDevOps.github.io',
-  baseUrl: '/my-docs/',
+  url: 'https://polite-field-063587703.7.azurestaticapps.net',
+  baseUrl: '/',
  
   organizationName: 'SoftwerxDevOps',
   projectName: 'my-docs',
