@@ -9,8 +9,8 @@ sidebar_label: Contacts
  
 | Contact Type | Details |
 |---|---|
-| General requests | soc@softwerx.com |
-| Escalation telephone | +44 1223 606797 |
+| General requests | xx |
+| Escalation telephone | xx |
  
 ## Customer Contacts
  
